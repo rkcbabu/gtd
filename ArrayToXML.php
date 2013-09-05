@@ -1,6 +1,6 @@
 <?php
 // initializing or creating array
-$student_info = array(your array data);
+$student_info = array(your_array_data);
 
 // creating object of SimpleXMLElement
 $xml_student_info = new SimpleXMLElement("<?xml version=\"1.0\"?><student_info></student_info>");

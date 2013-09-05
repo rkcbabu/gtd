@@ -1,4 +1,4 @@
-yummlyapi
+GitHub Testdrive Project 
 =========
 
-yummlyapi
+This project is the practice of advanced github features .

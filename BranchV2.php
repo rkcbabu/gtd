@@ -12,7 +12,7 @@ array_to_xml($student_info,$xml_student_info);
 $xml_student_info->asXML('file path and name');
 
 
-// function defination to convert array to xml
+// Function defination to convert array to xml
 function array_to_xml($student_info, &$xml_student_info) {
     foreach($student_info as $key => $value) {
         if(is_array($value)) {
@@ -30,5 +30,5 @@ function array_to_xml($student_info, &$xml_student_info) {
         }
     }
 }
-
+// This is added to BranchV2 code for depth-1 clone push check ; 
 ?>
